@@ -1,0 +1,25 @@
+{
+  "support_resolution_chart.png": {
+    "caption": "Line chart titled Enterprise support query resolution by channel. It compares Manual Search, Text RAG, and Multimodal Assistant from 2022 to 2025. The vertical axis represents the percentage of resolved queries. Manual Search decreases from 44% in 2022 to 25% in 2025, Text RAG increases from 18% to 36%, and Multimodal Assistant increases from 5% to 22%.",
+    "structured_facts": [
+      "Text RAG is the largest resolution channel in 2025 at 36%.",
+      "Manual Search decreases from 44% in 2022 to 25% in 2025, a drop of 19 percentage points.",
+      "Text RAG increases from 18% in 2022 to 36% in 2025, a gain of 18 percentage points.",
+      "Multimodal Assistant increases from 5% in 2022 to 22% in 2025, a gain of 17 percentage points.",
+      "Manual Search decreases every year.",
+      "Text RAG has a higher resolution share than Multimodal Assistant in 2025: 36% versus 22%."
+    ],
+    "image_kind": "chart"
+  },
+
+  "multimodal_rag_architecture.png": {
+    "caption": "Architecture diagram showing PDF page text chunks, chart and diagram captions, and timestamped video transcript chunks flowing into one Chroma index. Retrieval ranks relevant evidence before an answer generator returns source citations.",
+    "structured_facts": [
+      "The unified index stores searchable content and metadata.",
+      "The retriever searches PDF, image, and video transcript representations.",
+      "Final answers preserve source citations."
+    ],
+    "image_kind": "diagram"
+  }
+}
+
