@@ -42,5 +42,5 @@ Press Enter in `ask.py` to use the cross-modal demo question. It requires eviden
 
 There is no notebook, web UI, live YouTube download, keyword router, fake embedding fallback, LangSmith setup, or live image-caption generation. These additions hide the core RAG flow or create unreliable classroom dependencies. Prepared captions and a prepared transcript keep the practical repeatable. The answer step still demonstrates late vision by sending at most one retrieved image to the model.
 
-Read `STUDENT_GUIDE.md` for the design and every function. Read `TRAINER_README.md` for the teaching script and rehearsal checklist.
+Read `STUDENT_GUIDE.md` for the design and every function. 
 
